@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.color {
+  color: black;
+  background-color: white;
+}
+
+.color1 {
+  color: #00a5ec;
+  background-color: white;
+}
+
+.button1 {
+  margin-left: 700px;
+  font: 50px;
+  text-decoration: none;
+  padding-bottom: -6px;
+  position: inherit;
+  bottom: 73px;
+  margin-top: 35px;
+}
+
+.btn2 {
+  margin-left: 334px;
+  position: relative;
+  top: 64px;
+  font-weight: bolder;
+}
+
+.card {
+  width: 340px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 3px;
+  margin-left: 376px;
+  border-radius: 5px;
+  font-size: 13px;
+  background-color: white;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+.card h1 {
+  color: skyblue;
+  margin-left: 8px;
+}
+
+.card form {
+  color: #c2c2c2;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.remove_underline {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 250px) and (max-width: 500px) {
+  .card {
+    margin-left: 142px;
+    margin-top: 28px;
+    width: 469px;
+    height: 341px;
+    font-size: 30px;
+  }
+  .color{
+    width: 797px;
+    height: 99px;
+    font-size: 40px;
+  }
+  .color1{
+    font-size: 46px;
+  }
+  .button1{
+    position: relative;
+    top: -5px;
+    right: 104px;
+    font-size: 15px;
+  }
+  .btn2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 89px;
+  }
+  .fa-solid fa-circle-chevron-left{
+    font-size: 33px;
+  }
+}
