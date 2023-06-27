@@ -64,19 +64,22 @@ body {
 
 @media screen and (min-width: 250px) and (max-width: 500px) {
   .card {
-    margin-left: 142px;
+    margin-left: 40px;
     margin-top: 28px;
-    width: 469px;
-    height: 341px;
-    font-size: 30px;
+    width: 300px;
+    height: 260px;
+    font-size: 15px;
+  }
+  .colorp{
+    background-color: white;
   }
   .color{
     width: 797px;
-    height: 99px;
+    height: 70px;
     font-size: 40px;
   }
   .color1{
-    font-size: 46px;
+    font-size: 40px;
   }
   .button1{
     position: relative;
@@ -92,5 +95,11 @@ body {
   }
   .fa-solid fa-circle-chevron-left{
     font-size: 33px;
+  }
+  .plus{
+    margin-left: -425px;
+  }
+  .back{
+    margin-left: -45px;
   }
 }

@@ -195,17 +195,22 @@ body {
     box-shadow: 2px 2px 5px grey;
     border-radius: 5px;
     margin-top: 150px;
-    margin-left: 3px;
+    margin-left: 60px;
     position: absolute;
   }
   .item_opera{
     width: 149%;
     height: 746px;
     background-color: grey;
-    opacity: 50%;
-    /* filter: blur(1px); */
+    filter: blur(35px);
     position: absolute;
-    bottom: -72;
+    bottom: -72px;
+    /* width: 149%;
+    height: 746px;
+    background-color: grey;
+    filter: blur(5px);
+    position: absolute;
+    bottom: -72; */
   }
   .card1{
     width: 223px;
@@ -216,5 +221,9 @@ body {
     margin: 12px;
     border-radius: 5px;
     font-size: 13px;
+    margin-left: 70px;
+  }
+  .plus{
+    margin-right: 90px;
   }
 } 
